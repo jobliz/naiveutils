@@ -5,10 +5,13 @@ Very simple implementations of some UNIX utilities in C for self-educational pur
 
 Currently implemented
 ---------------------
+
 * `cat`
     * `cat_1.c`: Very naive `cat` implementation without flags nor using `getopt`. Emits compiler warnings.
 * `cp`
     * `cp_1.c`: Very naive `cp` implementation without flags nor using `getopt`. Can only copy one file to one destination. Does not emit compiler warnings.
+* `find`
+    * `find_1.c`: Very naive `find` implementation without flags nor using `getopt`. Emits compiler warnings. Receives a path that will be traversed recursively and a substring to look for in each result. Case dependent.
 
 Notes
 -----
